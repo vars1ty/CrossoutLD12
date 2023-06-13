@@ -26,4 +26,12 @@ Dependencies listed are from the AUR. If you are on a different distro, you'll h
    - Alternatively if you don't want to compile it, use ProtonUp and setup so that wine-ge is the default when running the `wine` command, or modify the source.
 
 ## Usage
-[TODO]
+1. Place the executable inside the Crossout game directory, in my case its at `/home/unmapped/.var/app/com.usebottles.bottles/data/bottles/bottles/XO/drive_c/users/unmapped/AppData/Local/Crossout/`
+   - Ensure the directory has the files `CrossoutLauncher.exe` and `launcher.exe` in it, alongside with a `EasyAntiCheat` folder.
+2. Run `chmod +x crossoutld12`
+3. Create a config.json file, look at the example one provided in this repository
+4. Tweak the config accordingly. The Easy AntiCheat Runtime path can be found in Steam by searching for Easy AntiCheat, installing, browse files and copying the path
+5. Adjust the resolution as Wine likes to be weird and not use a proper resolution for some setups
+6. Run `./crossoutld12` and wait for it to launch the launcher, wait for the "Play" button to become available
+7. Go to the terminal window where you started the executable, then hit ENTER and wait for it to show a message, indicating that you're ready.
+8. Done!
