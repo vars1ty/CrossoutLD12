@@ -1,0 +1,9 @@
+[package]
+name = "crossoutld12"
+description = "Crossout on Linux, using DirectX 12 through VKD3D"
+version = "1.0.0"
+author = "varsity"
+edition = "2021"
+
+[dependencies]
+json = "0.12.4"
